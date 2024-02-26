@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url("./fonts/norse-bold.otf") format("opentype");
+}
+
 :root {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'NorseBold', "Lucida Console", Courier;
+}
+
+body {
+    background-image: url("./img/background.jpg");
+}
+
+
+h1 {
+    color: blueviolet;
+}
+
+img{
+
 }

@@ -9,6 +9,8 @@
 
 body {
     background-image: url("./img/background.jpg");
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -16,6 +18,12 @@ h1 {
     color: blueviolet;
 }
 
-img{
-
+h1::before {
+    content:'';
+    background:url('./img/Odin-lined.png');
+    width: 4rem;
+    height: 4rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
